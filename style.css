@@ -1,0 +1,64 @@
+body{
+margin:0;
+font-family:Arial;
+background:#0b1120;
+color:white;
+}
+
+.sidebar{
+position:fixed;
+width:240px;
+height:100vh;
+background:#111827;
+padding:20px;
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:10px;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:#00f5ff;
+color:black;
+}
+
+.content{
+margin-left:260px;
+padding:30px;
+}
+
+section{
+background:rgba(255,255,255,0.05);
+padding:25px;
+margin-bottom:30px;
+border-radius:10px;
+line-height:1.9;
+}
+
+.logo{
+width:30px;
+vertical-align:middle;
+margin-right:8px;
+background:white;
+padding:3px;
+border-radius:5px;
+}
+
+.quiz-box button{
+margin:6px;
+padding:10px;
+border:none;
+cursor:pointer;
+background:#00f5ff;
+}
+
+.certa{background:#00ff88 !important;}
+.errada{background:#ff3b3b !important;}
+
+@media(max-width:768px){
+.sidebar{position:relative;width:100%;}
+.content{margin-left:0;}
+}
