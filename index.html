@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sistemas Operacionais - PROJETO COMPLETO</title>
+
+<style>
+body{
+margin:0;
+font-family:Arial;
+background:#0b1120;
+color:white;
+}
+
+.sidebar{
+position:fixed;
+width:240px;
+height:100vh;
+background:#111827;
+padding:20px;
+overflow:auto;
+}
+
+.sidebar a{
+display:block;
+color:white;
+padding:10px;
+text-decoration:none;
+}
+
+.sidebar a:hover{
+background:#00f5ff;
+color:black;
+}
+
+.content{
+margin-left:260px;
+padding:30px;
+}
+
+section{
+background:rgba(255,255,255,0.05);
+padding:28px;
+margin-bottom:30px;
+border-radius:10px;
+line-height:2;
+}
+
+h1{color:#00f5ff;}
+
+.logo{
+width:34px;
+vertical-align:middle;
+margin-right:10px;
+background:white;
+padding:3px;
+border-radius:5px;
+}
+
+.quiz-box button{
+margin:6px;
+padding:10px;
+border:none;
+cursor:pointer;
+background:#00f5ff;
+transition:0.2s;
+}
+
+.quiz-box button:hover{
+transform:scale(1.05);
+}
+
+.certa{background:#00ff88 !important;}
+.errada{background:#ff3b3b !important;}
+
+@media(max-width:768px){
+.sidebar{position:relative;width:100%;}
+.content{margin-left:0;}
+}
+</style>
+</head>
+
+<body>
+
+<div class="sidebar">
+<h2>Sistemas</h2>
+<a href="#inicio">Início</a>
+<a href="#ios">iOS</a>
+<a href="#android">Android</a>
+<a href="#linux">Linux</a>
+<a href="#windows">Windows</a>
+<a href="#quiz">Quiz</a>
+</div>
+
+<div class="content">
+
+<!-- INÍCIO (MAIOR) -->
+<section id="inicio">
+<h1>Sistemas Operacionais</h1>
+
+<p>
+Um sistema operacional é o software mais importante de qualquer computador ou dispositivo eletrônico moderno. Ele é responsável por controlar todo o hardware e permitir que o usuário consiga interagir com o sistema de maneira simples, eficiente e segura.
+</p>
+
+<p>
+Ele atua como uma camada intermediária entre o hardware e os programas instalados. Sempre que o usuário abre um aplicativo, acessa um arquivo ou executa uma tarefa, o sistema operacional transforma essas ações em comandos que o processador consegue entender.
+</p>
+
+<p>
+Além disso, o sistema operacional gerencia memória RAM, armazenamento, processos, dispositivos de entrada e saída e segurança. Ele garante que vários programas funcionem ao mesmo tempo sem conflitos, distribuindo recursos de forma inteligente.
+</p>
+
+<p>
+Os sistemas operacionais estão presentes em praticamente todos os dispositivos modernos, como computadores, celulares, servidores, smart TVs, carros inteligentes e até dispositivos domésticos conectados à internet.
+</p>
+
+<p>
+Sem um sistema operacional, um computador seria apenas um conjunto de peças eletrônicas sem utilidade prática, pois não haveria forma de controlar o hardware ou executar programas.
+</p>
+
+<p>
+Existem diferentes tipos de sistemas operacionais, como desktop, mobile, servidores e embarcados, cada um com funções específicas dependendo do tipo de dispositivo e uso.
+</p>
+</section>
+
+<!-- IOS (MAIOR) -->
+<section id="ios">
+<h1><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg"> iOS</h1>
+
+<p>
+O iOS é o sistema operacional móvel desenvolvido pela Apple para seus dispositivos como iPhone e iPad. Ele é conhecido por sua fluidez, estabilidade e alto nível de segurança.
+</p>
+
+<p>
+O sistema é fechado, ou seja, apenas a Apple tem acesso ao seu código-fonte. Isso permite controle total sobre o desempenho, segurança e integração entre hardware e software.
+</p>
+
+<p>
+O iOS é baseado em Unix (Darwin) e utiliza o sistema de segurança sandbox, onde cada aplicativo funciona isoladamente para evitar invasões, vazamento de dados e falhas entre aplicativos.
+</p>
+
+<p>
+Lançado em 2007 junto com o primeiro iPhone, o iOS revolucionou o mercado ao introduzir a interface touchscreen moderna, substituindo teclados físicos e botões complexos.
+</p>
+
+<p>
+Com o tempo, o sistema evoluiu adicionando App Store, Siri, Face ID, iCloud, AirDrop e integração completa com Mac, Apple Watch e outros dispositivos Apple.
+</p>
+
+<p>
+Hoje, o iOS é considerado um dos sistemas mais seguros e otimizados do mundo, sendo amplamente utilizado em dispositivos premium e profissionais.
+</p>
+</section>
+
+<!-- ANDROID (MAIOR) -->
+<section id="android">
+<h1><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/d/d7/Android_robot.svg"> Android</h1>
+
+<p>
+O Android é um sistema operacional baseado no Linux desenvolvido pelo Google e utilizado em bilhões de dispositivos ao redor do mundo.
+</p>
+
+<p>
+Ele é open-source, o que permite que fabricantes como Samsung, Xiaomi, Motorola e outros personalizem completamente o sistema para seus dispositivos.
+</p>
+
+<p>
+O Android foi criado pela Android Inc. em 2003 e adquirido pelo Google em 2005. Inicialmente, ele não era voltado para celulares, mas para câmeras digitais.
+</p>
+
+<p>
+Em 2008, foi lançado o primeiro smartphone Android, e desde então o sistema cresceu rapidamente até se tornar o mais utilizado do mundo.
+</p>
+
+<p>
+Ele possui integração com o ecossistema Google, incluindo Gmail, Maps, YouTube, Drive e outros serviços essenciais.
+</p>
+
+<p>
+Apesar de sua flexibilidade, o Android pode sofrer com fragmentação de versões, já que cada fabricante atualiza seus dispositivos em ritmos diferentes.
+</p>
+</section>
+
+<!-- LINUX (MAIOR) -->
+<section id="linux">
+<h1><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg"> Linux</h1>
+
+<p>
+O Linux é um sistema operacional open-source criado por Linus Torvalds em 1991. Ele se tornou uma das bases mais importantes da internet moderna.
+</p>
+
+<p>
+Ele é baseado no Unix e foi desenvolvido inicialmente como um projeto pessoal, mas evoluiu com a colaboração de programadores do mundo inteiro.
+</p>
+
+<p>
+Hoje o Linux é amplamente usado em servidores, supercomputadores, data centers e infraestrutura de grandes empresas como Google, Amazon e Meta.
+</p>
+
+<p>
+O sistema é extremamente estável, seguro e eficiente, podendo funcionar por longos períodos sem reinicialização.
+</p>
+
+<p>
+Ele possui diversas distribuições, como Ubuntu, Debian, Fedora e Arch Linux, cada uma com foco em diferentes tipos de usuários.
+</p>
+
+<p>
+Apesar de poderoso, o Linux pode ser mais difícil para iniciantes devido ao uso de comandos no terminal em algumas situações.
+</p>
+</section>
+
+<!-- WINDOWS (MAIOR) -->
+<section id="windows">
+<h1><img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/5/5f/Windows_logo_-_2012.svg"> Windows</h1>
+
+<p>
+O Windows é o sistema operacional mais utilizado em computadores pessoais, desenvolvido pela Microsoft e presente em milhões de dispositivos no mundo.
+</p>
+
+<p>
+Ele foi lançado em 1985 como uma interface gráfica para o MS-DOS e evoluiu até se tornar um sistema completo e moderno.
+</p>
+
+<p>
+O Windows é conhecido por sua facilidade de uso, compatibilidade com praticamente todos os programas e forte presença no mercado de jogos e empresas.
+</p>
+
+<p>
+Ao longo dos anos, versões como Windows XP, 7, 10 e 11 trouxeram grandes melhorias em desempenho, segurança e interface.
+</p>
+
+<p>
+Ele é amplamente usado em ambientes domésticos, empresariais e educacionais, sendo uma das bases da computação moderna.
+</p>
+
+<p>
+Apesar disso, pode consumir mais recursos do sistema e ser mais vulnerável a vírus comparado a sistemas como Linux e iOS.
+</p>
+</section>
+
+<!-- QUIZ -->
+<section id="quiz">
+<h1>Quiz (10 perguntas)</h1>
+<div class="quiz-box" id="quizBox"></div>
+<h2 id="resultadoQuiz"></h2>
+</section>
+
+</div>
+
+<script>
+let respostas={};
+
+const perguntas=[
+{q:"Qual sistema é da Apple?",a:[{t:"iOS",c:true},{t:"Android",c:false},{t:"Windows",c:false}]},
+{q:"Android é baseado em?",a:[{t:"Linux",c:true},{t:"Windows",c:false},{t:"iOS",c:false}]},
+{q:"Quem criou o Linux?",a:[{t:"Linus Torvalds",c:true},{t:"Bill Gates",c:false},{t:"Steve Jobs",c:false}]},
+{q:"Windows pertence a?",a:[{t:"Microsoft",c:true},{t:"Google",c:false},{t:"Apple",c:false}]},
+{q:"Android é:",a:[{t:"Open source",c:true},{t:"Fechado",c:false},{t:"Pago",c:false}]},
+{q:"Linux é usado em:",a:[{t:"Servidores",c:true},{t:"Jogos",c:false},{t:"Redes sociais",c:false}]},
+{q:"iOS é exclusivo de:",a:[{t:"Apple",c:true},{t:"Samsung",c:false},{t:"Xiaomi",c:false}]},
+{q:"Windows começou como:",a:[{t:"MS-DOS interface",c:true},{t:"Mobile",c:false},{t:"Linux",c:false}]},
+{q:"Qual tem mais personalização?",a:[{t:"Android",c:true},{t:"iOS",c:false},{t:"Windows",c:false}]},
+{q:"Linux é:",a:[{t:"Gratuito e aberto",c:true},{t:"Pago",c:false},{t:"Fechado",c:false}]}
+];
+
+function shuffle(a){return a.sort(()=>Math.random()-0.5)}
+
+function montar(){
+let box=document.getElementById("quizBox");
+box.innerHTML="";
+
+perguntas.forEach((p,i)=>{
+let div=document.createElement("div");
+div.innerHTML=`<p><b>${i+1}) ${p.q}</b></p>`;
+
+shuffle(p.a).forEach(o=>{
+div.innerHTML+=`
+<button onclick="resp(${i},${o.c},this)">${o.t}</button>
+`;
+});
+
+box.appendChild(div);
+});
+}
+
+function resp(i,c,b){
+if(respostas[i]!==undefined)return;
+
+respostas[i]=c;
+let btns=b.parentElement.querySelectorAll("button");
+
+btns.forEach(x=>x.disabled=true);
+
+if(c)b.classList.add("certa");
+else{
+b.classList.add("errada");
+btns.forEach(x=>{
+if(x.onclick.toString().includes("true"))x.classList.add("certa");
+});
+}
+}
+
+function resultado(){
+let p=0;
+Object.values(respostas).forEach(v=>{if(v)p++});
+document.getElementById("resultadoQuiz").innerHTML=`Você acertou ${p}/10`;
+}
+
+window.onload=montar;
+</script>
+
+</body>
+</html>
